@@ -48,9 +48,13 @@ function App() {
           onChange={(e) => setChar(e.target.value)}
           onClick={() => setIsActive(true)}
         />
-        <div className="card-content">{isActive && <ContentItems />}</div>
+        <div className="card-content" role="dialog">
+          {isActive && <ContentItems />}
+        </div>
       </div>
-      <p className="read-the-docs">This project is built with Vite and React</p>
+      <h1 className="read-the-docs">
+        This project is built with Vite and React
+      </h1>
     </>
   );
 }

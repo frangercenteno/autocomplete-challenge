@@ -29,6 +29,16 @@ yarn dev
 pnpm dev
 ```
 
+Run all tests:
+
+```bash
+npm run test
+# or
+yarn test
+# or
+pnpm test
+```
+
 Build to production:
 
 ```bash
